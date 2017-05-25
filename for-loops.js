@@ -33,5 +33,5 @@ var antSpecies = {
 }
 
 for (var name in antSpecies) {
-	console.log(`antSpecies.${name} = ${antSpecies[name]}`);
+	console.log(name);
 }
