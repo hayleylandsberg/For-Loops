@@ -17,3 +17,21 @@ var americanPresidents = [
 for (var i = 0; i < americanPresidents.length; i++) {
 	console.log(americanPresidents[i]);
 }
+
+var antSpecies = {
+  argentine: {},
+  army: {},
+  bigHeaded: {},
+  black: {},
+  bull: {},
+  carpenter: {},
+  crazy: {},
+  fire: {},
+  glider: {},
+  honeyPot: {},
+  jackJumper: {}
+}
+
+for (var name in antSpecies) {
+	console.log(`antSpecies.${name} = ${antSpecies[name]}`);
+}
